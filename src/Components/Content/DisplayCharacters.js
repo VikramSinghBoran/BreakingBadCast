@@ -12,6 +12,7 @@ function DisplayCharacters({item}) {
             </div>
         <div className="flip-card-back">
             <h1>{item.name}</h1>
+            <hr></hr>
             <p>Actor Name: {item.portrayed}</p> 
             <p>NickName: {item.nickname}</p> 
             <p>DOB: {item.birthday}</p>
