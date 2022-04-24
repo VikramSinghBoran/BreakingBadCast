@@ -52,6 +52,9 @@ body {
 }
   
 .flip-card-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
